@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.heading {
+    font-family: "bree Sans-Serif";
+    font-size: 60px;
+    color: blue;
+}
+
+.counter-value {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.bg-c {
+    background-image: linear-gradient(5deg,
+            hsl(201deg 88% 70%) 0%,
+            hsl(203deg 88% 79%) 14%,
+            hsl(204deg 87% 88%) 29%,
+            hsl(206deg 85% 95%) 43%,
+            hsl(165deg 44% 96%) 57%,
+            hsl(143deg 54% 92%) 71%,
+            hsl(138deg 57% 89%) 86%,
+            hsl(136deg 58% 85%) 100%);
+    height: 100vh;
+}
+
+.btn {
+    background: #4f161c;
+    background-image: -webkit-linear-gradient(top, #4f161c, #ff145b);
+    background-image: -moz-linear-gradient(top, #4f161c, #ff145b);
+    background-image: -ms-linear-gradient(top, #4f161c, #ff145b);
+    background-image: -o-linear-gradient(top, #4f161c, #ff145b);
+    background-image: linear-gradient(to bottom, #4f161c, #ff145b);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    text-shadow: 3px 0px 7px #120512;
+    font-family: Arial;
+    color: #fafafa;
+    font-size: 35px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #0080cf;
+    background-image: -webkit-linear-gradient(top, #0080cf, #3498db);
+    background-image: -moz-linear-gradient(top, #0080cf, #3498db);
+    background-image: -ms-linear-gradient(top, #0080cf, #3498db);
+    background-image: -o-linear-gradient(top, #0080cf, #3498db);
+    background-image: linear-gradient(to bottom, #0080cf, #3498db);
+    text-decoration: none;
+}
